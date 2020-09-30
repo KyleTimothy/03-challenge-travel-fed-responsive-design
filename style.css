@@ -1,0 +1,288 @@
+
+
+
+.container-fluid{
+
+    width:auto;
+}
+
+li{
+    display: inline;
+
+}
+
+.navlink > a{
+    color: white;
+    font-size: 2.5em;
+    float: right;
+    position: relative;
+    top: -110px;
+   margin: 10px;
+   
+
+}
+
+#headertitle{
+    padding:1em;
+    color: white;
+    font-size: 7em;
+}
+
+#headingsection{
+    margin: 1em;
+    padding-right: 5em;
+    padding-left: 5em;
+    color: white;
+}
+
+
+
+
+figure{
+    max-width: 10em;
+    padding: 1px;
+    margin-left: 200px;
+    left:100em;
+    
+}
+
+#navlogo{
+    max-width: 15em;
+   
+    margin-left: -80px;
+    padding:2.5em;
+    top: -110px;
+   
+}
+ .jumbotron{
+/*   
+   
+ height:1000px; */
+ margin-top: 90px;
+background-size: 100% 100%;
+margin: 10%;
+height: 820px;
+width: 80.2%;
+   background-image: url(./images/MotleyFool-TMOT-510581ed-vacation.webp);
+}
+
+
+#middlesection{
+    width: 80.2%;
+    background-color: rgb(5, 5, 100);
+}
+
+#middlesection2{
+
+    width: 80%;
+    background-color: rgb(230, 178, 116);  
+}
+
+p {
+right: 6000em;
+}
+
+#discoversection{
+   padding:10;
+   background-color: rgb(230, 178, 116);
+   right: -10em;
+
+}
+
+.tripbook h1{
+    display: inline-block;
+    margin: 50px;
+  
+}
+
+#departures{
+    right: -20em;
+}
+
+.suites{
+
+    display: inline-block;
+    margin:2em;
+
+   padding:2px;
+   right:8em;
+}
+.suites h3{
+
+    text-align: center;
+}
+ ul{
+    color: rgb(230, 178, 116);
+}
+
+#listed{
+    color: white;
+  
+}
+
+ p{
+    color: white;
+}
+
+input{
+    width: 35em;
+
+}
+
+
+
+#mainsection{
+
+    background-color:  rgb(230, 178, 116);
+    width: 80%;
+}
+
+table{
+    width: 79em;
+    height: 30em;
+    border-color:rgb(230, 178, 116) ;
+   
+}
+
+td{
+    border-color:rgb(230, 178, 116) ;
+
+   
+}
+tr{
+    background-color:  rgb(5, 5, 100);
+    color:rgb(230, 178, 116) ;
+    width: 11em;
+    margin: 6em;
+  
+   text-align: center;
+    
+}
+
+th{
+    background-color: white;
+    border-color:rgb(230, 178, 116) ;
+   
+    
+}
+
+tr th{
+    text-align: center;
+}
+
+table,th,td
+{
+  border:3px solid rgb(230, 178, 116) ;
+
+}
+
+.contactimg{
+
+    width: 350px;
+    height: 200px;
+}
+
+#blogimage{
+
+    padding:25px;
+  margin: 52px;
+  
+}
+#blogimages{
+    padding:2em;
+    width: 350px;
+    height: 200px;
+}
+#rightpanel h1{
+    text-align: center;
+}
+
+#reservelogo{
+    
+    padding:2em;
+    width: 550px;
+    height: 400px;
+}
+
+#contact_section .col-sm-4{
+    color: white;
+    font-size: xx-large;
+}
+
+#footersection{
+height: 10em;
+    background-color: rgb(5, 5, 100);
+    color:white;
+    text-align: center;
+    width: 80%
+}
+
+
+@media only screen and (max-width: 380px) {
+    .container {
+
+        width: 400px;
+   
+    }
+
+    h1 #headertitle{
+        font-size: smaller;
+        width:10;
+    }
+
+ li a{
+        font-size: x-small;
+    }
+
+    body{font-size: xx-small;}
+
+    .container-fluid{
+        width:400px;
+        height: 400px;
+    }
+    
+.col-sm-8{
+    font:smaller;
+
+}
+ 
+.jumbotron{
+    width:400px;
+}
+
+#navlogo{
+    width:4px;
+    height: 2px;
+}
+
+.row{
+    width: 400px;
+}
+
+.tripbook{
+    width: 400px;
+    font-size: 60px;
+}
+
+.col-sm-4{
+    font-size: smaller;
+}
+
+p #headingsection{
+    font-size: xx-small;
+    
+}
+
+#discoversection p{
+    width: 400px;
+}
+    h1{
+        width: 50px;
+    }
+
+    .suites{
+
+        padding:100px;
+        margin: 100px;
+    }
+  }
