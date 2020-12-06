@@ -137,6 +137,12 @@ input{
     width: 80%;
 }
 
+
+textarea{
+margin-left: -9em;
+}
+
+
 table{
     width: 50em;
     height: 30em;
