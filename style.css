@@ -279,7 +279,9 @@ p #headingsection{
     h1{
         width: 50px;
     }
-
+textarea{
+    margin-right:7em;
+    }
     .suites{
 
         padding:100px;
