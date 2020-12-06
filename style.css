@@ -203,6 +203,10 @@ table,th,td
     text-align: center;
 }
 
+
+#rightpanel{
+margin-left: 10em;
+}
 #reservelogo{
     
     padding:2em;
